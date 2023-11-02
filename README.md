@@ -1,16 +1,30 @@
-# Turborepo Create React App starter
+# Turborepo starter kit 🚀
 
-This is an official starter Turborepo.
+### Tools and Technologies Used
 
-## Using this example
+1. [turbo.build](https://turbo.build/repo)
+2. [pnpm](https://pnpm.io/)
+3. [Create React App](https://create-react-app.dev/)
+4. [Express](https://expressjs.com/)
+5. [Jest](https://jestjs.io/)
+6. [MongoDB](https://www.mongodb.com/)
+7. [Mongoose](https://mongoosejs.com/)
+8. [React](https://reactjs.org/)
+6. [TypeScript](https://www.typescriptlang.org/)
 
-Run the following command:
+## Dev
 
-```sh
-npx create-turbo@latest -e with-create-react-app
+Following command will start all the apps and packages in dev mode.
+
+```
+pnpm dev
 ```
 
-## What's inside?
+## Create a build
+
+```
+pnpm build
+```
 
 This Turborepo includes the following packages/apps:
 
@@ -18,6 +32,7 @@ This Turborepo includes the following packages/apps:
 
 - `docs`: a [create-react-app](https://create-react-app.dev) app
 - `web`: another [create-react-app](https://create-react-app.dev) app
+- `server`: a [Express](https://expressjs.com) server
 - `ui`: a stub React component library shared by both `web` and `docs` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-plugin-react` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
